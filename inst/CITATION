@@ -1,0 +1,13 @@
+bibentry(
+  bibtype  = "Manual",
+  other = unlist(citation(auto = meta), recursive = FALSE),
+  key   = "dawaR")
+
+bibentry(
+  bibtype  = "misc",
+  key      = "apidawa",
+  title    = "{DAWA}: {Danmarks Adressers Web API} at {Dataforsyningen} - Through {dawaR}",
+  author   = "Klimadatastyrelsen",
+  year     = "2024",
+  url      = "https://dawadocs.dataforsyningen.dk/dok/guides"
+)
