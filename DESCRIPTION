@@ -1,7 +1,7 @@
 Package: dawaR
 Title: An API Wrapper for 'DAWA' - 'The Danish Address Web API'
-Date: 2024-10-28
-Version: 0.2.4
+Date: 2024-11-23
+Version: 0.2.6
 Authors@R: 
     person("Aleksander", "Bang-Larsen", , "contact@aleksanderbl.dk",
            role = c("aut", "cre", "cph"),
@@ -22,12 +22,13 @@ Suggests: knitr, rmarkdown, ggplot2, testthat (>= 3.0.0), cowplot (>=
 Config/testthat/edition: 3
 Config/testthat/parallel: true
 Depends: R (>= 3.5.0)
-Imports: memoise (>= 2.0.0), cli, httr2, sf, tidyRSS, rlang
+Imports: memoise (>= 2.0.0), cli, httr2, sf, tidyRSS, rlang, curl,
+        utils
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2024-11-17 16:21:22 UTC; aleksanderbang-larsen
+Packaged: 2024-11-23 22:07:45 UTC; aleksanderbang-larsen
 Author: Aleksander Bang-Larsen [aut, cre, cph]
     (<https://orcid.org/0009-0007-7984-4650>)
 Maintainer: Aleksander Bang-Larsen <contact@aleksanderbl.dk>
 Repository: CRAN
-Date/Publication: 2024-11-17 16:50:02 UTC
+Date/Publication: 2024-11-24 13:20:02 UTC

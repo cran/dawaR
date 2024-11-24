@@ -1,4 +1,15 @@
-# dawaR 0.2.4
+# dawaR 0.2.6 (2024-11-23)
+
+* The base api function `dawa()` now fails gracefully.
+  * This trickles down to `get_data()`, `get_map_data()`, `autocomplete()` and `reverse()` functions.
+* Fixed error where `get_map_data()` would overflow internally on low-powered systems and cause unexpected errors.
+
+# dawaR 0.2.5 (2024-11-22)
+
+* Hotfix for the `postnumre` section. All functions using this section now returns only land-geometries.
+  * See issue #100 for more info.
+
+# dawaR 0.2.4 (2024-11-17)
 
 * Add package startup message on terms and conditions.
 
