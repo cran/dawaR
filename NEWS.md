@@ -1,3 +1,7 @@
+# dawaR 0.2.7 (2024-12-07)
+
+* Ensure cran checks does not fail
+
 # dawaR 0.2.6 (2024-11-23)
 
 * The base api function `dawa()` now fails gracefully.

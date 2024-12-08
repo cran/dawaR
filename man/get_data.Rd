@@ -23,6 +23,13 @@ section or a list with the same information.
 Get data from section
 }
 \examples{
-x <- get_data("regioner")
-head(x)
+if (connection_check()) {
+  x <- get_data("regioner")
+  head(x)
 }
+}
+\seealso{
+Other Data functions: 
+\code{\link{get_map_data}()}
+}
+\concept{Data functions}

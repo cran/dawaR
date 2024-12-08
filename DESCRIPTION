@@ -1,13 +1,17 @@
 Package: dawaR
 Title: An API Wrapper for 'DAWA' - 'The Danish Address Web API'
-Date: 2024-11-23
-Version: 0.2.6
-Authors@R: 
+Date: 2024-12-07
+Version: 0.2.7
+Authors@R: c(
     person("Aleksander", "Bang-Larsen", , "contact@aleksanderbl.dk",
            role = c("aut", "cre", "cph"),
-           comment = c(ORCID = "0009-0007-7984-4650"))
+           comment = c(ORCID = "0009-0007-7984-4650")),
+    person(given = "Agency of Climate Data", role = c("ctb"),
+           comment = c("The Danish Agency of Climate Data provides this
+           API for the public and have not actively contributed to the
+           development nor distribution in this package.")))
 Description: Functions for interacting with all sections of
-    the official 'Danish Address Web API' (also known as 'DAWA') 
+    the official 'Danish Address Web API' (also known as 'DAWA')
     <https://api.dataforsyningen.dk>. The development of this package is
     completely independent from the government agency, Klimadatastyrelsen,
     who maintains the API.
@@ -18,7 +22,8 @@ URL: https://dawar.aleksanderbl.dk/,
         https://github.com/aleksanderbl29/dawaR
 BugReports: https://github.com/aleksanderbl29/dawaR/issues
 Suggests: knitr, rmarkdown, ggplot2, testthat (>= 3.0.0), cowplot (>=
-        1.1.0), rmapshaper (>= 0.5.0), microbenchmark (>= 1.5.0), dplyr
+        1.1.0), rmapshaper (>= 0.5.0), microbenchmark (>= 1.5.0),
+        pkgdown, dplyr, devtools, vcr (>= 0.6.0)
 Config/testthat/edition: 3
 Config/testthat/parallel: true
 Depends: R (>= 3.5.0)
@@ -26,9 +31,12 @@ Imports: memoise (>= 2.0.0), cli, httr2, sf, tidyRSS, rlang, curl,
         utils
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2024-11-23 22:07:45 UTC; aleksanderbang-larsen
+Packaged: 2024-12-07 19:09:37 UTC; aleksanderbang-larsen
 Author: Aleksander Bang-Larsen [aut, cre, cph]
-    (<https://orcid.org/0009-0007-7984-4650>)
+    (<https://orcid.org/0009-0007-7984-4650>),
+  Agency of Climate Data [ctb] (The Danish Agency of Climate Data
+    provides this API for the public and have not actively contributed
+    to the development nor distribution in this package.)
 Maintainer: Aleksander Bang-Larsen <contact@aleksanderbl.dk>
 Repository: CRAN
-Date/Publication: 2024-11-24 13:20:02 UTC
+Date/Publication: 2024-12-08 00:00:06 UTC
