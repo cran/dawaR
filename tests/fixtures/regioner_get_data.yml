@@ -16,9 +16,9 @@ http_interactions:
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Thu, 05 Dec 2024 10:08:40 GMT
-      x-gravitee-transaction-id: cd4f451c-32d0-45c2-8f45-1c32d065c202
-      x-gravitee-request-id: cd4f451c-32d0-45c2-8f45-1c32d065c202
+      date: Thu, 30 Jan 2025 23:48:34 GMT
+      x-gravitee-transaction-id: bd987c98-fbc8-4b4b-987c-98fbc87b4bbf
+      x-gravitee-request-id: bd987c98-fbc8-4b4b-987c-98fbc87b4bbf
       content-encoding: gzip
     body:
       encoding: ''
@@ -44,23 +44,23 @@ http_interactions:
           "kode": "1082",
           "navn": "Region Midtjylland",
           "nuts2": "DK04",
-          "ændret": "2024-10-11T21:03:05.131Z",
-          "geo_ændret": "2024-10-11T21:03:05.131Z",
-          "geo_version": 43,
+          "ændret": "2025-01-01T22:02:15.652Z",
+          "geo_ændret": "2025-01-01T22:02:15.652Z",
+          "geo_version": 44,
           "bbox_xmin": 8.07887623,
           "bbox_ymin": 55.64437916,
           "bbox_xmax": 11.66419061,
           "bbox_ymax": 56.84325702,
-          "visueltcenter_x": 9.60503157,
-          "visueltcenter_y": 56.23399042
+          "visueltcenter_x": 9.60503514,
+          "visueltcenter_y": 56.23399153
         }, {
           "dagi_id": "389102",
           "kode": "1083",
           "navn": "Region Syddanmark",
           "nuts2": "DK03",
-          "ændret": "2024-10-04T21:02:54.978Z",
-          "geo_ændret": "2024-10-04T21:02:54.978Z",
-          "geo_version": 32,
+          "ændret": "2025-01-01T22:02:15.652Z",
+          "geo_ændret": "2025-01-01T22:02:15.652Z",
+          "geo_version": 33,
           "bbox_xmin": 8.06320315,
           "bbox_ymin": 54.71828064,
           "bbox_xmax": 10.99555236,
@@ -97,5 +97,5 @@ http_interactions:
           "visueltcenter_y": 55.43978536
         }
         ]
-  recorded_at: 2024-12-05 10:08:40 GMT
+  recorded_at: 2025-01-30 23:48:34 GMT
   recorded_with: vcr/1.6.0, webmockr/1.0.0
