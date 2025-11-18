@@ -1,28 +1,20 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/regioner?cache=no-cache
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       access-control-allow-origin: '*'
       content-type: application/json; charset=UTF-8
       cache-control: no-cache
       vary: Accept-Encoding
-      date: Thu, 30 Jan 2025 23:48:33 GMT
-      x-gravitee-transaction-id: df8fe077-ae83-46a5-8fe0-77ae83f6a538
-      x-gravitee-request-id: df8fe077-ae83-46a5-8fe0-77ae83f6a538
+      date: Mon, 17 Nov 2025 08:20:52 GMT
+      x-gravitee-transaction-id: f05076aa-bee7-4818-9076-aabee7281817
+      x-gravitee-request-id: f05076aa-bee7-4818-9076-aabee7281817
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         [
         {
@@ -45,9 +37,9 @@ http_interactions:
           "nuts2": "DK05",
           "href": "https://api.dataforsyningen.dk/regioner/1081"
         }, {
-          "ændret": "2025-01-01T22:02:15.652Z",
-          "geo_version": 44,
-          "geo_ændret": "2025-01-01T22:02:15.652Z",
+          "ændret": "2025-07-11T21:05:02.274Z",
+          "geo_version": 47,
+          "geo_ændret": "2025-07-11T21:05:02.274Z",
           "bbox": [
             8.07887623,
             55.64437916,
@@ -55,8 +47,8 @@ http_interactions:
             56.84325702
           ],
           "visueltcenter": [
-            9.60503514,
-            56.23399153
+            9.5984783,
+            56.23405681
           ],
           "dagi_id": "389101",
           "kode": "1082",
@@ -64,9 +56,9 @@ http_interactions:
           "nuts2": "DK04",
           "href": "https://api.dataforsyningen.dk/regioner/1082"
         }, {
-          "ændret": "2025-01-01T22:02:15.652Z",
-          "geo_version": 33,
-          "geo_ændret": "2025-01-01T22:02:15.652Z",
+          "ændret": "2025-05-14T21:02:41.891Z",
+          "geo_version": 34,
+          "geo_ændret": "2025-05-14T21:02:41.891Z",
           "bbox": [
             8.06320315,
             54.71828064,
@@ -102,9 +94,9 @@ http_interactions:
           "nuts2": "DK01",
           "href": "https://api.dataforsyningen.dk/regioner/1084"
         }, {
-          "ændret": "2024-10-22T21:04:04.354Z",
-          "geo_version": 29,
-          "geo_ændret": "2024-10-22T21:04:04.354Z",
+          "ændret": "2025-05-14T21:02:41.891Z",
+          "geo_version": 30,
+          "geo_ændret": "2025-05-14T21:02:41.891Z",
           "bbox": [
             10.8148054,
             54.54440636,
@@ -122,5 +114,5 @@ http_interactions:
           "href": "https://api.dataforsyningen.dk/regioner/1085"
         }
         ]
-  recorded_at: 2025-01-30 23:48:33 GMT
-  recorded_with: vcr/1.6.0, webmockr/1.0.0
+  recorded_at: 2025-11-17 08:20:52
+recorded_with: VCR-vcr/2.0.0

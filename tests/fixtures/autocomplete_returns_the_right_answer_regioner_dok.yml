@@ -1,31 +1,23 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/regioner/autocomplete?q=Dok
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       access-control-allow-origin: '*'
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Thu, 30 Jan 2025 23:48:30 GMT
-      x-gravitee-transaction-id: efcc4a05-4b3b-481e-8c4a-054b3b981e5e
-      x-gravitee-request-id: efcc4a05-4b3b-481e-8c4a-054b3b981e5e
+      date: Mon, 17 Nov 2025 08:20:50 GMT
+      x-gravitee-transaction-id: 4e92c8fc-2cdd-47b6-92c8-fc2cddf7b668
+      x-gravitee-request-id: 4e92c8fc-2cdd-47b6-92c8-fc2cddf7b668
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         [
 
         ]
-  recorded_at: 2025-01-30 23:48:30 GMT
-  recorded_with: vcr/1.6.0, webmockr/1.0.0
+  recorded_at: 2025-11-17 08:20:50
+recorded_with: VCR-vcr/2.0.0

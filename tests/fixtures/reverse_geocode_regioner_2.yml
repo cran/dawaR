@@ -1,28 +1,20 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/regioner/reverse?x=9.284236&y=56.96055
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       access-control-allow-origin: '*'
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Thu, 30 Jan 2025 23:49:24 GMT
-      x-gravitee-transaction-id: d815da6d-95f4-4cd7-95da-6d95f4ccd78f
-      x-gravitee-request-id: d815da6d-95f4-4cd7-95da-6d95f4ccd78f
+      date: Mon, 17 Nov 2025 08:21:27 GMT
+      x-gravitee-transaction-id: c31d67f6-693d-4c31-9d67-f6693d2c31b9
+      x-gravitee-request-id: c31d67f6-693d-4c31-9d67-f6693d2c31b9
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         {
           "ændret": "2024-10-04T21:02:54.978Z",
@@ -44,5 +36,5 @@ http_interactions:
           "nuts2": "DK05",
           "href": "https://api.dataforsyningen.dk/regioner/1081"
         }
-  recorded_at: 2025-01-30 23:49:24 GMT
-  recorded_with: vcr/1.6.0, webmockr/1.0.0
+  recorded_at: 2025-11-17 08:21:27
+recorded_with: VCR-vcr/2.0.0

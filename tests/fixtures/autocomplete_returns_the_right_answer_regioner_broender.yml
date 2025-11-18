@@ -1,31 +1,23 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/regioner/autocomplete?q=br%C3%B8nder
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       access-control-allow-origin: '*'
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Thu, 30 Jan 2025 23:48:41 GMT
-      x-gravitee-transaction-id: 7c57b58a-e963-429f-97b5-8ae963e29f9b
-      x-gravitee-request-id: 7c57b58a-e963-429f-97b5-8ae963e29f9b
+      date: Mon, 17 Nov 2025 08:21:00 GMT
+      x-gravitee-transaction-id: 9d3b3ea9-ec2f-4605-bb3e-a9ec2fb6053d
+      x-gravitee-request-id: 9d3b3ea9-ec2f-4605-bb3e-a9ec2fb6053d
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         [
 
         ]
-  recorded_at: 2025-01-30 23:48:41 GMT
-  recorded_with: vcr/1.6.0, webmockr/1.0.0
+  recorded_at: 2025-11-17 08:21:00
+recorded_with: VCR-vcr/2.0.0

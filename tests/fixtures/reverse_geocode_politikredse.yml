@@ -1,32 +1,24 @@
 http_interactions:
 - request:
-    method: get
+    method: GET
     uri: https://api.dataforsyningen.dk/politikredse/reverse?x=11.55341&y=55.32309
-    body:
-      encoding: ''
-      string: ''
-    headers: []
   response:
-    status:
-      status_code: 200
-      message: OK
+    status: 200
     headers:
-      x-gravitee-client-identifier: 948768a6f45dd39605267d52f6a113932f9da99bc9daeffbbcc2165499a39266
+      x-gravitee-client-identifier: 6ec4c28309a4772ef3b30a3d18dfb1085706dc5fe885acfd3fe8116b9cffb2af
       content-type: application/json; charset=UTF-8
       cache-control: max-age=86400
       vary: Accept-Encoding
-      date: Thu, 30 Jan 2025 23:49:25 GMT
-      x-gravitee-transaction-id: 702f0feb-da16-46d6-af0f-ebda16e6d6e2
-      x-gravitee-request-id: 702f0feb-da16-46d6-af0f-ebda16e6d6e2
+      date: Mon, 17 Nov 2025 08:21:28 GMT
+      x-gravitee-transaction-id: d3fa5529-3f0b-4a1c-ba55-293f0b1a1c8e
+      x-gravitee-request-id: d3fa5529-3f0b-4a1c-ba55-293f0b1a1c8e
       content-encoding: gzip
     body:
-      encoding: ''
-      file: no
       string: |-
         {
-          "ændret": "2024-10-22T21:04:04.354Z",
-          "geo_version": 18,
-          "geo_ændret": "2024-10-22T21:04:04.354Z",
+          "ændret": "2025-05-14T21:02:41.891Z",
+          "geo_version": 19,
+          "geo_ændret": "2025-05-14T21:02:41.891Z",
           "bbox": [
             10.90936714,
             54.54440636,
@@ -42,5 +34,5 @@ http_interactions:
           "navn": "Sydsjællands og Lolland-Falsters Politi",
           "href": "https://api.dataforsyningen.dk/politikredse/1466"
         }
-  recorded_at: 2025-01-30 23:49:25 GMT
-  recorded_with: vcr/1.6.0, webmockr/1.0.0
+  recorded_at: 2025-11-17 08:21:28
+recorded_with: VCR-vcr/2.0.0
