@@ -1,7 +1,7 @@
 Package: dawaR
 Title: An API Wrapper for 'DAWA' - 'The Danish Address Web API'
-Date: 2025-11-17
-Version: 0.3.1
+Date: 2025-12-16
+Version: 0.3.2
 Authors@R: c(
     person("Aleksander", "Bang-Larsen", , "contact@aleksanderbl.dk",
            role = c("aut", "cre", "cph"),
@@ -31,7 +31,7 @@ Imports: memoise (>= 2.0.0), cli, httr2, sf, tidyRSS, rlang, curl,
         utils
 VignetteBuilder: knitr
 NeedsCompilation: no
-Packaged: 2025-11-17 08:57:34 UTC; aleksander
+Packaged: 2025-12-16 11:48:10 UTC; aleksander
 Author: Aleksander Bang-Larsen [aut, cre, cph] (ORCID:
     <https://orcid.org/0009-0007-7984-4650>),
   Agency of Climate Data [ctb] (The Danish Agency of Climate Data
@@ -39,4 +39,4 @@ Author: Aleksander Bang-Larsen [aut, cre, cph] (ORCID:
     to the development nor distribution in this package.)
 Maintainer: Aleksander Bang-Larsen <contact@aleksanderbl.dk>
 Repository: CRAN
-Date/Publication: 2025-11-18 08:50:09 UTC
+Date/Publication: 2025-12-16 12:20:02 UTC
